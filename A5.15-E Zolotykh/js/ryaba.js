@@ -23,7 +23,7 @@ function getFormValues() {
 
 function handleButton() {
   $.getJSON(dataURL, handleData);
-  $("form").hide();
+//   $("form").hide();
 }
 
 function handleData(data) {
